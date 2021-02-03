@@ -25,4 +25,4 @@ def api(id:int):
     return jsonify(k)
     
 if "__main__" == __name__:
-    app.run(port=8080,debug=True)
+    app.run()
