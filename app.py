@@ -23,6 +23,3 @@ def api(id:int):
     m = tf.strings.join(result)[0].numpy().decode("utf-8")
     k = {"Shakespeare":m}
     return jsonify(k)
-    
-if "__main__" == __name__:
-    app.run()
