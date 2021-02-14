@@ -9,7 +9,7 @@ docker pull arnavg1q5/shakespeareapi:latest
 ```
 Then you can run it
 ```
-docker run -t -d -p 5000:5000 --name shakespeareapi arnavg1q5/shakespeareapi:5000
+docker run -t -d -p 5000:5000 --name shakespeareapi arnavg1q5/shakespeareapi:latest
 ```
 The api is up and running and you can find it at 0.0.0.0:5000.
 ### Other way
