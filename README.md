@@ -1,7 +1,7 @@
 # Shakespeareapi1
 This is a simple flask where one can query it and it will generate a text with the number of characters specified. The model is from <a href = "https://www.tensorflow.org/tutorials/text/text_generation">this tensorflow tutorial.</a>
 ## Setup
-This project can be run or without docker. 
+This project can be run with or without docker. 
 ### Docker
 Get the docker image from <a href ="https://hub.docker.com/r/arnavg1q5/shakespeareapi">Docker hub</a>. You can do this by doing
 ```
